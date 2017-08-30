@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Expander"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="150" Width="325">
     <Grid>
-        
+        <Expander Header="Граматика">
+            <StackPanel>
+                <CheckBox>Check grammar as you type</CheckBox>
+                <CheckBox>Hide grammatical error in this document</CheckBox>
+                <CheckBox>Check grammar with spelling</CheckBox>
+            </StackPanel>
+        </Expander> 
     </Grid>
 </Window>
